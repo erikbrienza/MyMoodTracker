@@ -1,0 +1,101 @@
+.dashboard {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f0f2f5;
+  border-radius: 10px;
+}
+
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #004d5a;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #004d5a;
+}
+
+select {
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #26a69a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #219186;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.feedback {
+  text-align: center;
+  color: #004d5a;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Storico umori */
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mood-history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mood-history li {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.mood-history li.happy {
+  background-color: #4CAF50;
+}
+
+.mood-history li.neutral {
+  background-color: #9E9E9E;
+}
+
+.mood-history li.sad {
+  background-color: #F44336;
+}

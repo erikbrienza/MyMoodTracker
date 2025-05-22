@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #004d5a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #26a69a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.red {
+  background-color: #f44336;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
