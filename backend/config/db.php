@@ -1,9 +1,8 @@
 <?php
-$host = 'localhost';
-$db = 'mymoodtracker';
-$user = 'root'; 
-$pass = 'root';     
-$charset = 'utf8mb4';
+DB_HOST=localhost
+DB_NAME=mymoodtracker
+DB_USER=root
+DB_PASS=password
 
 try {
   $pdo = new PDO("mysql:host=$host;dbname=$db;charset=$charset", $user, $pass);
