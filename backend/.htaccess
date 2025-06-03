@@ -1,0 +1,11 @@
+# 🔒 Blocca accesso a file sensibili
+<FilesMatch "\.(env|ini|log|conf|json|md|lock)$">
+  Require all denied
+</FilesMatch>
+
+# 🌐 CORS per le API PHP
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type, X-Token"
+</IfModule>
